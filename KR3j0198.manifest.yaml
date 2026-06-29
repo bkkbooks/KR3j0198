@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3j0198/v1
+canonical_location: https://kanripo.org/bkk/KR3j0198/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 物理論一卷
+  identifiers:
+    krp: KR3j0198
+  tags:
+    kr-categories: KR3j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3j0198.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3j0198_001.yaml, hash: 'sha256:7b8365a6b81914e3d4003568d3ed1b8e00ae63797bb0452a3888aa4fdd66e2ec'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3j0198_001.markers.yaml, hash: 'sha256:077700242414eb3f730a9ac1b1378b08a39f4b7998f256f9a6c8ef882c3c5f69'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3j0198_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 6791
+  label: 物理論
+  type: section
+  level: 1
+hash: sha256:d1b8a574d1fa77b9720a048d1b9c8bbf4aa07e251bd01e84b3e3dde2d9604299
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
