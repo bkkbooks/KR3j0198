@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3j0198/v1
 canonical_location: https://kanripo.org/bkk/KR3j0198/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 物理論一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR3j0198_001.yaml, hash: 'sha256:7803212cc0fa13fefb93bae00cd416688eee50f53e399c0d934bb21281c87562'}
+  - {seq: 1, filename: KR3j0198_001.yaml, hash: 'sha256:da146fb50dcc4dba13ecb12859c35c84328aed99dad1c25ef6cf36fb0bf9e469'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3j0198_001.markers.yaml, hash: 'sha256:f6bd8a26ccb3a1fd9a3a01243002c82b570d695bea976a429da0a1b5e8580aea'}
+  - {seq: 1, role: markers, filename: assets/KR3j0198_001.markers.yaml, hash: 'sha256:5143c809aa3ee5e27812f39666e5cfb1010634bb4043ee426408a29d67c9c0b8'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 物理論
   type: section
   level: 1
-hash: sha256:abd549f3791846a1df091c0c241f1568b30d8b6959ffd1e68fb3bc8b3315826a
+hash: sha256:7055850c19868bfbb284715b41999e1ee60a59f83a7fe63257300f38b3b79e51
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
